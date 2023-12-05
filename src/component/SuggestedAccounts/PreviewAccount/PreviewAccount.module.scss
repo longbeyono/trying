@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+.avatar {
+    height: 44px;
+    border-radius: 50%;
+}
+
+.follow-btn {
+    height: 38px;
+}
+.body {
+}
+.user-name {
+    display: flex;
+}
+.nickname {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(22, 24, 35);
+}
+.check-icon {
+    color: var(--primary);
+    margin-left: 8px;
+}
+.full-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    color: rgb(22, 24, 35);
+}
+.follow-like {
+}
+.values {
+    font-size: 1.8rem;
+    margin-right: 8px;
+}
+.label {
+    font-size: 1.8rem;
+    margin-right: 16px;
+}

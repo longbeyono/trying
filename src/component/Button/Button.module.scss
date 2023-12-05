@@ -1,0 +1,82 @@
+//default is medium size
+.wrapper {
+    min-width: 100px;
+    padding: 10px 16px;
+    line-height: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: var(--while);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+//button types
+.primary {
+    color: var(--while);
+    background-color: var(--primary);
+
+    &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
+    }
+}
+
+.outline {
+    color: var(--primary);
+    border-color: var(--primary);
+
+    &:hover {
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+
+.text {
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.round {
+    border-radius: 1000px;
+    border-color: rgba(22, 24, 35, 0.12);
+
+    &:hover {
+        box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+        border-color: rgba(22, 24, 35, 0.2);
+        background-color: #f3f3f3;
+    }
+}
+
+.square {
+    border-radius: 0;
+    border-color: rgba(22, 24, 35, 0.12);
+    &:hover {
+        box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+        border-color: rgba(22, 24, 35, 0.2);
+        background-color: #f3f3f3;
+    }
+}
+
+//disable
+.disable {
+    pointer-events: none;
+    opacity: 0.6;
+    user-select: none;
+}
+
+//button size
+.small {
+    min-width: 88px;
+    padding: 6px 16px;
+}
+
+.large {
+    min-width: 148px;
+    padding: 16px 16px;
+}
+
+//CSS for Icon in Button
+.icon + .content,
+.content + .icon {
+    margin-left: 8px;
+}

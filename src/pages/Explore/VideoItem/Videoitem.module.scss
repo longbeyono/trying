@@ -1,0 +1,39 @@
+.wrapper {
+    height: 470px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.video-item {
+    position: relative;
+    height: calc(100% - 40px);
+    border-radius: 6px;
+    background-color: aqua;
+}
+
+.video {
+}
+
+.play {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 6px;
+}
+
+.views {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.desc {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 22px;
+}

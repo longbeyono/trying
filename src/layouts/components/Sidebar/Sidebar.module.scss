@@ -1,0 +1,18 @@
+.wrapper {
+    width: 256px;
+    min-height: 1000px;
+    padding-top: 20px;
+}
+
+.item {
+    margin-right: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(22, 24, 35, 0.5);
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

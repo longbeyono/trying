@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #f2f2f2;
+    }
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.body {
+    flex: 1;
+    margin-left: 16px;
+    text-align: left;
+}
+
+.name-icon {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.name {
+}
+
+.icon {
+    color: var(--primary);
+    margin-left: 8px;
+}
+
+.user {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 4px;
+}

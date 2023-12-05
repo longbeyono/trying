@@ -1,0 +1,100 @@
+.wrapper {
+    --search-height: 46px;
+    --height-seperation: 28px;
+    --width-search-btn: 52px;
+
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    height: var(--default-layout-header-height, 60px);
+    width: 100%;
+    box-shadow: 0px 1px 1px #999999;
+    background-color: var(--while);
+}
+
+.inner {
+    width: var(--default-layout-width, 1150px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+//actives
+.active {
+    display: flex;
+    align-items: center;
+}
+
+//More-btn
+.more-btn {
+    font-size: 1.8rem;
+    margin-left: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+//user
+.btn-user {
+    background-color: transparent;
+    padding: 4px 10px;
+    font-size: 2.2rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.btn-user-mes {
+    position: relative;
+    &::before {
+        content: '12';
+        position: absolute;
+        right: 4px;
+        width: 20px;
+        height: 16px;
+        border-radius: 12px;
+        color: var(--while);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: center;
+        background-color: var(--primary);
+    }
+}
+
+.user-avt {
+    width: 32px;
+    height: 32px !important;
+    object-fit: cover;
+    background-color: transparent;
+    margin-left: 12px;
+}
+
+.user-img {
+    height: 100%;
+    border-radius: 50%;
+}
+.hover-btn {
+    position: relative;
+    background-color: #666;
+    padding: 12px 6px;
+    border-radius: 10px;
+    color: var(--while);
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -16px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent transparent #666 transparent;
+    }
+}

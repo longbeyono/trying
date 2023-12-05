@@ -1,0 +1,61 @@
+.more-list {
+    width: 224px;
+    padding-bottom: 8px;
+}
+
+.wrapper-more {
+    padding-bottom: 8px;
+}
+
+.menu-body {
+    overflow-y: auto;
+}
+
+//Css for MenuItem
+
+.item {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 14px 22px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 28px;
+}
+
+.sparate {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+}
+
+//CSS for HeaderMenu
+
+.header {
+    position: relative;
+    flex-shrink: 0;
+    height: 50px;
+    width: 100%;
+    font-weight: 600;
+}
+.btn-back {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.title-header {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
